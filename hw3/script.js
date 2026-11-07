@@ -98,14 +98,12 @@ let firstDigit = Math.floor(num / 100);
 let secondDigit = Math.floor(num / 10) % 10;
 let thirdDigit7 = num % 10;
 
-// Чи всі цифри однакові?
 if (firstDigit === secondDigit && secondDigit === thirdDigit7) {
     console.log("Всі цифри однакові");
 } else {
     console.log("Не всі цифри однакові");
 }
 
-// Чи є серед цифр однакові?
 if (
     firstDigit === secondDigit ||
     firstDigit === thirdDigit7 ||
